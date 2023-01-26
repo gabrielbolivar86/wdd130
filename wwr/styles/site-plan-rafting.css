@@ -32,19 +32,33 @@ Fonts are separated by a & */
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
-body {
+main {
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
+  padding-top: 10px;
   font-size: 18px;
   text-align: center;
+}
+nav {
+  background-color: steelblue;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#title {
+  padding: 10px;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--headline-color-on-color);
+  background-color: var(--paragraph-background-color);
 }
 img {
   display: block;
   margin: 0 auto;
   max-width: 300px;
 }
-h1, h2, h3, h4, h5, h6 {
+main h1, main h2, main h3, main h4, main h5, main h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
@@ -56,12 +70,7 @@ hr {
   margin: 35px 0;
   background: var(--accent1-color);
 }
-header {
-  padding: 1em;
-  text-align: center;
-  color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
-}
+
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }

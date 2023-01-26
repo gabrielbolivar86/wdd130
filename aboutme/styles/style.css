@@ -6,8 +6,7 @@ body {
 nav {
     background-color: steelblue;
     padding: 10px;
-    border-radius: 5px;
-}
+    margin-bottom: 10px;}
 a {
     color: white;
     margin: 40px;
